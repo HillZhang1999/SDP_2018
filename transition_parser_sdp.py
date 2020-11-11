@@ -10,7 +10,7 @@ from torch.nn.modules import Dropout
 from transition_sdp_predictor import sdp_trans_outputs_into_conll
 from transition_sdp_metric import MyMetric
 from stack_rnn import StackRnn
-from supar.utils import Config
+from supar_config import Config
 
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 
